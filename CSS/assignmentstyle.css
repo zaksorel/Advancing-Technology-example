@@ -1,0 +1,294 @@
+/*BASE STYLES*/
+
+h1, h2, h3, h4, h5,h6{
+    font-family: 'Roboto', sans-serif;
+    margin:25px 0;
+
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0 auto;
+    font-size:18px;
+ 
+}
+
+p{
+    line-height: 1.4;
+}
+
+h1{
+    font-size:36px;
+
+}
+h2{
+    font-size:32px;
+}
+h3{
+    font-size:28px;
+}
+h4{
+    font-size:24px;
+}
+h5{
+    font-size:20px;
+}
+
+/*DEFAULTS**/
+
+img{
+    display:block;
+    max-width: 100%;
+    }
+
+section{
+    overflow:auto
+}
+
+.wrap{
+    max-width: 1280px;
+padding:50px;
+margin:0 auto;
+}
+
+/*HOMEPAGE*/
+
+/*HEADER*/
+header{
+text-align: center;
+color: #fff;
+}
+
+#header {
+    background-size: cover;
+    padding: 80px 0;
+
+}
+
+
+header img{
+    margin:0 auto;
+    width:200px;
+    border:4px solid white;
+    border-radius:50%;
+    padding:8px;
+
+}
+
+
+
+.three-points-section{
+min-height: 400px;
+
+
+}
+
+.three-points-section img{
+    width:300px;
+    margin:0 auto;
+    border-radius: 50%;
+
+}
+
+.three-points-section-image img:hover{
+border:10px solid #fe5f55;
+}
+
+.three-points-section-image {
+width:40%;
+float:left;
+
+
+
+}
+.three-points-section-text {
+width:60%;
+float:left;
+
+}
+
+.speakers{
+min-height:300px;
+clear:both;
+
+
+
+
+}
+
+
+.speakers-day-one{
+    width:50%;
+    float:left;
+
+
+}
+
+.speakers-day-two{
+    
+ width:50%;
+    float:left;
+}
+
+.speakers img{
+margin:0 auto;
+width:150px;
+border-radius:50%;
+margin-bottom: 50px;
+margin-top:25px;
+
+}
+
+.speakers img:hover
+{border:3px solid #fe5f55;
+   
+    
+}
+
+.speaker-photo{
+    float:left;
+   width:50%;
+  
+}
+
+.speakers h4{
+    text-align:center;
+}
+
+#expectations{
+    background: #BDD5EA;
+    border-bottom: 1px dashed #495867;
+   
+}
+
+#reserve{
+    background-color: #bdd5ea;
+    border-top: 2px dashed #495867;
+    border-bottom: 2px dashed #495867;
+    text-align: center;
+    
+}
+
+#reserve table{
+
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:20px;
+    table-layout: fixed;
+    
+   
+    
+}
+
+#reserve table th{
+
+    background-color:#495867;
+    padding:10px;
+    color:white;
+     
+}
+
+#reserve table tr{
+    background:white;
+    height: 100px;
+}
+
+#reserve table td,th,tr{
+border:3px solid #BDD5EA;
+padding:20px;
+outline:1px solid #495867;
+
+}
+
+
+#wait{
+    background-color: #bdd5ea;
+    border-top: 1px dashed #495867;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #495867;
+    padding:20px;
+    color: white;
+}
+/*TICKETS*/
+
+.tickets{
+    text-align: center;
+}
+
+#ticket-form{
+    margin:0 auto;
+    text-align: center;
+ 
+
+
+}
+
+#ticket-form form{
+padding:20px;
+text-align:center;
+width:400px;
+margin:0 auto;
+border:1px solid #efefef;
+box-shadow:2px 2px #efefef;
+
+
+}
+
+#ticket-form form label{
+    display:none;
+
+}
+
+#ticket-form .block-input{
+    padding:10px;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 10px;
+    border:1px solid #dedede;
+    
+}
+
+#ticket-form .select-packages{
+
+    padding:5px;
+    border:1px solid #dedede;
+    display:block;
+    width:200px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+
+#ticket-form .select-packages select{
+    height:50px;
+    width:100%;
+    margin:0 auto;
+    border:none;
+
+}
+
+#ticket-form form [type="checkbox"]{
+
+    color:red;
+    margin-right:15px;
+
+}
+
+.button{
+    padding:10px;
+    background-color:#fe5f55;
+    border:1px solid grey;
+    width:140px;
+    font-size:20px;
+    color:white;
+    margin: 20px;
+    border-radius:30px;
+    text-decoration: none;
+
+
+}
